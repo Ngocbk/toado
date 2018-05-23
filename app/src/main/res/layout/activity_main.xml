@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.toado.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="360dp"
+        android:layout_height="460dp" />
+
+    <com.example.user.toado.ve
+        android:layout_height="460dp"
+        android:layout_width="360dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Map"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="480dp"/>
+
+    <Button
+        android:id="@+id/starttime"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="480dp" />
+
+
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="480dp" />
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="530dp" />
+
+    <Button
+        android:id="@+id/ipconfig"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="IP"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="530dp" />
+
+
+
+
+</RelativeLayout>

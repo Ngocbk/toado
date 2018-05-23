@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/map1"
+        android:src="@mipmap/map1"
+        android:layout_width="180dp"
+        android:layout_height="230dp" />
+
+    <ImageView
+        android:id="@+id/map2"
+        android:src="@mipmap/map2"
+        android:layout_width="180dp"
+        android:layout_height="230dp"
+        android:layout_marginLeft="180dp"/>
+
+    <ImageView
+        android:id="@+id/map3"
+        android:src="@mipmap/map3"
+        android:layout_width="180dp"
+        android:layout_height="230dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="230dp"
+        />
+
+    <ImageView
+        android:id="@+id/map4"
+        android:src="@mipmap/map4"
+        android:layout_width="180dp"
+        android:layout_height="230dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="230dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="500dp"
+        />
+
+</RelativeLayout>
